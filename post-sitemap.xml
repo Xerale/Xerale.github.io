@@ -7,8 +7,32 @@
     </url>
 
     <url>
-        <loc>http://Xerale.github.io/2017/03/18/hexo-theme-beantech/</loc>
-        <lastmod>2019-09-19T08:31:44.410Z</lastmod>
+        <loc>http://Xerale.github.io/2019/09/19/git/</loc>
+        <lastmod>2019-09-20T02:51:50.788Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://Xerale.github.io/2019/09/19/git_page/</loc>
+        <lastmod>2019-09-20T02:51:35.600Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://Xerale.github.io/2019/09/19/markdown/</loc>
+        <lastmod>2019-09-19T14:46:51.689Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://Xerale.github.io/2019/09/19/use_vim/</loc>
+        <lastmod>2019-09-19T13:41:32.058Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
