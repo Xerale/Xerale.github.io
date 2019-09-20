@@ -90,7 +90,7 @@
                     <div class="site-heading">
                         <h1>Tags</h1>
                         <!--<hr class="small">-->
-                        <span class="subheading">Hey, this is Tags.</span>
+                        <span class="subheading">hey，这里有标签.</span>
                     </div>
                 
 
@@ -136,7 +136,7 @@
 
                         
                         <li>
-                            <a href="/about/">About</a>
+                            <a href="/archive/">Archives</a>
                         </li>
                         
                     
@@ -150,7 +150,7 @@
 
                         
                         <li>
-                            <a href="/archive/">Archives</a>
+                            <a href="/about/">About</a>
                         </li>
                         
                     
@@ -200,19 +200,15 @@
             <!-- 标签云 -->
             <div id='tag_cloud' class="tags">
                 
-                    <a href="#Hexo" title="Hexo" rel="0">Hexo</a>
+                    <a href="#Git" title="Git" rel="1">Git</a>
                 
                     <a href="#Blog" title="Blog" rel="4">Blog</a>
                 
-                    <a href="#Vim" title="Vim" rel="1">Vim</a>
-                
-                    <a href="#MarkDown" title="MarkDown" rel="0">MarkDown</a>
-                
-                    <a href="#Markdown" title="Markdown" rel="1">Markdown</a>
-                
                     <a href="#GitHub Page" title="GitHub Page" rel="1">GitHub Page</a>
                 
-                    <a href="#Git" title="Git" rel="1">Git</a>
+                    <a href="#Vim" title="Vim" rel="1">Vim</a>
+                
+                    <a href="#Markdown" title="Markdown" rel="1">Markdown</a>
                 
             </div>
 
@@ -220,9 +216,28 @@
 
             
             <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="Hexo">
-                    <span class="tag-text">Hexo</span>
+                <span class="fa fa-tag listing-seperator" id="Git">
+                    <span class="tag-text">Git</span>
                 </span>
+                
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <div class="post-preview">
+                     <a href="/2019/09/19/git/">
+                        <h2 class="post-title">
+                            Git基础学习
+                        </h2>
+                        
+                            <h3 class="post-subtitle">
+                                基础学习
+                            </h3>
+                        
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </div>
+                <hr>
                 
             </div>
             
@@ -230,44 +245,6 @@
                 <span class="fa fa-tag listing-seperator" id="Blog">
                     <span class="tag-text">Blog</span>
                 </span>
-                
-                  <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-                 <div class="post-preview">
-                     <a href="/2019/09/19/use_vim/">
-                        <h2 class="post-title">
-                            Vim/Vi基础学习
-                        </h2>
-                        
-                            <h3 class="post-subtitle">
-                                基础学习
-                            </h3>
-                        
-                    </a>
-                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-                </div>
-                <hr>
-                
-                  <!-- <li class="listing-item">
-                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-                  </li> -->
-                 <div class="post-preview">
-                     <a href="/2019/09/19/markdown/">
-                        <h2 class="post-title">
-                            Markdown基础学习
-                        </h2>
-                        
-                            <h3 class="post-subtitle">
-                                基础学习
-                            </h3>
-                        
-                    </a>
-                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-                </div>
-                <hr>
                 
                   <!-- <li class="listing-item">
                   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
@@ -307,13 +284,6 @@
                 </div>
                 <hr>
                 
-            </div>
-            
-            <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="Vim">
-                    <span class="tag-text">Vim</span>
-                </span>
-                
                   <!-- <li class="listing-item">
                   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
                   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
@@ -332,20 +302,6 @@
                     <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
                 </div>
                 <hr>
-                
-            </div>
-            
-            <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="MarkDown">
-                    <span class="tag-text">MarkDown</span>
-                </span>
-                
-            </div>
-            
-            <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="Markdown">
-                    <span class="tag-text">Markdown</span>
-                </span>
                 
                   <!-- <li class="listing-item">
                   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
@@ -395,8 +351,8 @@
             </div>
             
             <div class="one-tag-list">
-                <span class="fa fa-tag listing-seperator" id="Git">
-                    <span class="tag-text">Git</span>
+                <span class="fa fa-tag listing-seperator" id="Vim">
+                    <span class="tag-text">Vim</span>
                 </span>
                 
                   <!-- <li class="listing-item">
@@ -404,9 +360,35 @@
                   <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
                   </li> -->
                  <div class="post-preview">
-                     <a href="/2019/09/19/git/">
+                     <a href="/2019/09/19/use_vim/">
                         <h2 class="post-title">
-                            Git基础学习
+                            Vim/Vi基础学习
+                        </h2>
+                        
+                            <h3 class="post-subtitle">
+                                基础学习
+                            </h3>
+                        
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </div>
+                <hr>
+                
+            </div>
+            
+            <div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="Markdown">
+                    <span class="tag-text">Markdown</span>
+                </span>
+                
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <div class="post-preview">
+                     <a href="/2019/09/19/markdown/">
+                        <h2 class="post-title">
+                            Markdown基础学习
                         </h2>
                         
                             <h3 class="post-subtitle">
@@ -441,19 +423,10 @@
                 
 
                 
-                    <li>
-                        <a target="_blank" href="https://www.facebook.com/YenYuHsuan">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                
 
                 
                     <li>
-                        <a target="_blank"  href="https://github.com/YenYuHsuan">
+                        <a target="_blank"  href="https://github.com/Xerale">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -462,15 +435,6 @@
                     </li>
                 
 
-                
-                    <li>
-                        <a target="_blank"  href="https://www.linkedin.com/in/yu-hsuan-yen">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
                 
 
                 </ul>

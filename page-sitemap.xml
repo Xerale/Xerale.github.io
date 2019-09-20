@@ -8,21 +8,21 @@
     
     <url>
         <loc>http://Xerale.github.io/tags/</loc>
-        <lastmod>2019-09-19T08:31:44.458Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>http://Xerale.github.io/about/</loc>
-        <lastmod>2019-09-19T08:31:44.418Z</lastmod>
+        <lastmod>2019-09-20T03:32:06.204Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
         <loc>http://Xerale.github.io/archive/</loc>
-        <lastmod>2019-09-19T08:31:44.418Z</lastmod>
+        <lastmod>2019-09-20T03:29:41.893Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>http://Xerale.github.io/about/</loc>
+        <lastmod>2019-09-20T03:28:48.158Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

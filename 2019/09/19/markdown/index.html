@@ -146,7 +146,7 @@
 
                         
                         <li>
-                            <a href="/about/">About</a>
+                            <a href="/archive/">Archives</a>
                         </li>
                         
                     
@@ -160,7 +160,7 @@
 
                         
                         <li>
-                            <a href="/archive/">Archives</a>
+                            <a href="/about/">About</a>
                         </li>
                         
                     
@@ -256,7 +256,7 @@
 <hr>
 <h2><span id="下划线">下划线</span></h2>
 <p>下划线可以通过 HTML 的 <u> 标签来实现：</u></p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;u&gt;带下划线文本&lt;/u&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">u</span>&gt;</span></span>带下划线文本<span class="xml"><span class="tag">&lt;/<span class="name">u</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 <hr>
 <h2><span id="脚注">脚注</span></h2>
 <p>脚注是对文本的补充说明。</p>
@@ -285,11 +285,11 @@
 <hr>
 <h2><span id="markdown-链接">Markdown 链接</span></h2>
 <p>链接使用方法如下：</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">链接名称</span>](<span class="link">链接地址</span>) 如：这是一个链接 [<span class="string">菜鸟教程</span>](<span class="link">https://www.runoob.com</span>)</span><br><span class="line"></span><br><span class="line">或者</span><br><span class="line"></span><br><span class="line">&lt;链接地址&gt; 如： &lt;https://www.runoob.com&gt;</span><br><span class="line"></span><br><span class="line">链接也可以用变量来代替，文档末尾附带变量地址：</span><br><span class="line">这个链接用 1 作为网址变量 [<span class="string">Google</span>][<span class="symbol">1</span>]</span><br><span class="line">这个链接用 runoob 作为网址变量 [<span class="string">Runoob</span>][<span class="symbol">runoob</span>]</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">  [1]: http://www.google.com/</span><br><span class="line">  [runoob]: http://www.runoob.com/</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">链接名称</span>](<span class="link">链接地址</span>) 如：这是一个链接 [<span class="string">菜鸟教程</span>](<span class="link">https://www.runoob.com</span>)</span><br><span class="line"></span><br><span class="line">或者</span><br><span class="line"></span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">链接地址</span>&gt;</span></span> 如： <span class="xml"><span class="tag">&lt;<span class="name">https:</span>//<span class="attr">www.runoob.com</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line">链接也可以用变量来代替，文档末尾附带变量地址：</span><br><span class="line">这个链接用 1 作为网址变量 [<span class="string">Google</span>][<span class="symbol">1</span>]</span><br><span class="line">这个链接用 runoob 作为网址变量 [<span class="string">Runoob</span>][<span class="symbol">runoob</span>]</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">  [1]: http://www.google.com/</span><br><span class="line">  [runoob]: http://www.runoob.com/</span><br></pre></td></tr></table></figure>
 <hr>
 <h2><span id="markdown-图片">Markdown 图片</span></h2>
 <p>Markdown 图片语法格式如下：</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">alt 属性文本</span>](<span class="link">图片地址</span>) 如 ：![<span class="string">RUNOOB 图标</span>](<span class="link">http://static.runoob.com/images/runoob-logo.png</span>)</span><br><span class="line"></span><br><span class="line">![<span class="string">alt 属性文本</span>](<span class="link">图片地址 "可选标题"</span>) 如：![<span class="string">RUNOOB 图标</span>](<span class="link">http://static.runoob.com/images/runoob-logo.png "RUNOOB"</span>)</span><br><span class="line"></span><br><span class="line">当然，你也可以像网址那样对图片网址使用变量:</span><br><span class="line"></span><br><span class="line">这个链接用 1 作为网址变量 [<span class="string">RUNOOB</span>][<span class="symbol">1</span>].</span><br><span class="line">然后在文档的结尾位变量赋值（网址）</span><br><span class="line"></span><br><span class="line">[<span class="symbol">1</span>]: <span class="link">http://static.runoob.com/images/runoob-logo.png</span></span><br><span class="line"></span><br><span class="line">Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 &lt;img&gt; 标签。</span><br><span class="line">&lt;img src="http://static.runoob.com/images/runoob-logo.png" width="50%"&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">![<span class="string">alt 属性文本</span>](<span class="link">图片地址</span>) 如 ：![<span class="string">RUNOOB 图标</span>](<span class="link">http://static.runoob.com/images/runoob-logo.png</span>)</span><br><span class="line"></span><br><span class="line">![<span class="string">alt 属性文本</span>](<span class="link">图片地址 "可选标题"</span>) 如：![<span class="string">RUNOOB 图标</span>](<span class="link">http://static.runoob.com/images/runoob-logo.png "RUNOOB"</span>)</span><br><span class="line"></span><br><span class="line">当然，你也可以像网址那样对图片网址使用变量:</span><br><span class="line"></span><br><span class="line">这个链接用 1 作为网址变量 [<span class="string">RUNOOB</span>][<span class="symbol">1</span>].</span><br><span class="line">然后在文档的结尾位变量赋值（网址）</span><br><span class="line"></span><br><span class="line">[<span class="symbol">1</span>]: <span class="link">http://static.runoob.com/images/runoob-logo.png</span></span><br><span class="line"></span><br><span class="line">Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 <span class="xml"><span class="tag">&lt;<span class="name">img</span>&gt;</span></span> 标签。</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">"http://static.runoob.com/images/runoob-logo.png"</span> <span class="attr">width</span>=<span class="string">"50%"</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 <hr>
 <h2><span id="markdown-表格">Markdown 表格</span></h2>
 <p>Markdown 制作表格使用 | 来分隔不同的单元格，使用 - 来分隔表头和其他行。</p>
@@ -306,10 +306,6 @@
                             <a href="/2019/09/19/use_vim/" data-toggle="tooltip" data-placement="top" title="Vim/Vi基础学习">&larr; Previous Post</a>
                         </li>
                     
-                    
-                        <li class="next">
-                            <a href="/2019/09/19/git/" data-toggle="tooltip" data-placement="top" title="Git基础学习">Next Post &rarr;</a>
-                        </li>
                     
                 </ul>
 
@@ -379,7 +375,7 @@
                     
                         <li><a href="http://huangxuan.me" target="_blank">Hux Blog</a></li>
                     
-                        <li><a href="#" target="_blank">It Helps SEO</a></li>
+                        <li><a href="http://Xerale.github.io" target="_blank">Xerale</a></li>
                     
                 </ul>
                 
@@ -459,19 +455,10 @@
                 
 
                 
-                    <li>
-                        <a target="_blank" href="https://www.facebook.com/YenYuHsuan">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                
 
                 
                     <li>
-                        <a target="_blank"  href="https://github.com/YenYuHsuan">
+                        <a target="_blank"  href="https://github.com/Xerale">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -480,15 +467,6 @@
                     </li>
                 
 
-                
-                    <li>
-                        <a target="_blank"  href="https://www.linkedin.com/in/yu-hsuan-yen">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
                 
 
                 </ul>
